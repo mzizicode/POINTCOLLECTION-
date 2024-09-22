@@ -34,3 +34,7 @@ spring:
 
     # Shows SQL statements in the console for debugging purposes
     show-sql: true
+management:
+  tracing:
+    sampling:
+      probability: 1.0

@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.wizardcoding</groupId>
-    <artifactId>Product</artifactId>
+    <artifactId>EurekaServer</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,8 +18,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <version>4.1.0</version>
+        </dependency>
         <dependency>
             <groupId>me.legrange</groupId>
             <artifactId>mikrotik</artifactId>
